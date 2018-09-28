@@ -1,3 +1,32 @@
-<p>
-  graphic1 works!
-</p>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-graphic-donut [title]="graficos.grafico1.leyenda" [donutData]="graficos.grafico1.data" [donutLabels]="graficos.grafico1.labels" [donutType]="graficos.grafico1.type"></app-graphic-donut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-graphic-donut [title]="graficos.grafico2.leyenda" [donutData]="graficos.grafico2.data" [donutLabels]="graficos.grafico2.labels" [donutType]="graficos.grafico2.type"></app-graphic-donut>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-graphic-donut [title]="graficos.grafico3.leyenda" [donutData]="graficos.grafico3.data" [donutLabels]="graficos.grafico3.labels" [donutType]="graficos.grafico3.type"></app-graphic-donut>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-graphic-donut [title]="graficos.grafico4.leyenda" [donutData]="graficos.grafico4.data" [donutLabels]="graficos.grafico4.labels" [donutType]="graficos.grafico4.type"></app-graphic-donut>
+            </div>
+        </div>
+    </div>
+</div>
