@@ -17,6 +17,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 // TODO: Temp
 import { VariationComponent } from '../components/variation/variation.component';
 import { GraphicDonutComponent } from '../components/graphic-donut/graphic-donut.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { GraphicDonutComponent } from '../components/graphic-donut/graphic-donut
     VariationComponent,
     GraphicDonutComponent,
     AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
