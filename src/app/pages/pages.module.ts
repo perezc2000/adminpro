@@ -12,6 +12,7 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graphic1Component } from './graphic1/graphic1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // TODO: Temp
 import { VariationComponent } from '../components/variation/variation.component';
@@ -25,6 +26,7 @@ import { GraphicDonutComponent } from '../components/graphic-donut/graphic-donut
     Graphic1Component,
     VariationComponent,
     GraphicDonutComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     DashboardComponent,
