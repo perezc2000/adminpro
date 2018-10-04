@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Routes
 import { APP_ROUTERS } from './app.routes';
@@ -25,6 +25,7 @@ import { SignupComponent } from './signup/signup.component';
     BrowserModule,
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     APP_ROUTERS,
     PagesModule,
     ServicesModule
